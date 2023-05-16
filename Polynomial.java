@@ -4,8 +4,7 @@ public class Polynomial {
 
     // ii)
     public Polynomial() {
-        double[] zero = {0.0};
-        polyCoeffs = zero;
+        polyCoeffs = new double[] { 0 };
     }
     
     // iii)
